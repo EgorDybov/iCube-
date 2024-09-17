@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+body {
+    font-family: "Onest", sans-serif;
+    background-color: #131313;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1840px;
+}
+
+/* header */
+
+.header__wrapper {
+    max-width: 1840px;
+    width: 100%;
+    background-color: #FAF9F6;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0 20px;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__link {
+    color: #131313;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* main */
+
+.main__wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main__title {
+    font-family: "Unbounded", sans-serif;
+    color: #FFFFFF;
+    line-height: 110%;
+    font-size: 48px;
+    max-width: 471px;
+    margin: 0 auto;
+    margin-top: 160px;
+    font-weight: 500;
+}
+
+.main__btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 210px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.catalog__btn {
+    max-width: 95px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+
+.buy__btn {
+    max-width: 95px;
+    width: 100%;
+    background: #0075FF;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+/* brand btns */
+
+.apple__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    left: 280px;
+    top: 383px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 63px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.samsung__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    right: 658px;
+    top: 469px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 83px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.sony__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    left: 523px;
+    top: 344px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 60px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.xiaomi__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    right: 346px;
+    top: 487px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 67px;
+    width: 100%; 
+    line-height: 110%;
+}
+
+.google__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    right: 520px;
+    top: 254px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 102px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.xbox__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    right: 808px;
+    top: 122px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 59px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.dyson__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    left: 538px;
+    top: 491px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 67px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+.marshall__btn {
+    color: #FAF9F6;
+    border: 1px solid #0075FF;
+    padding: 10px 15px;
+    border-radius: 100px;
+    position: absolute;
+    left: 406px;
+    top: 150px;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 78px;
+    width: 100%;
+    line-height: 110%;
+
+}
+
+/* main__advantage */
+
+.main__advantages__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 245px;
+}
+.main__advantage {
+    max-width: 600px;
+    width: 100%;
+    background-color: #FAF9F6;
+    border-radius: 15px;
+    padding: 25px 0px 15px 20px;
+    height: 151px;
+}
+
+.main__advantage_clients {
+    max-width: 600px;
+    width: 100%;
+    background-color: #0075FF;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 25px 0px 15px 20px;
+    height: 151px;
+}
+
+.main__advantage__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.main__advantage__desc {
+    margin-top: 60px;
+    font-size: 16px;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+
+/* catalog */
+
+.catalog__wrapper {
+    margin-top: 110px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* catalog phone */
+
+.catalog__iPhones {
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    max-width: 440px;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog__iphone__title {
+    top: 0;
+    left: 0;
+    color: #FAF9F6;
+    
+}
+
+.catalog__iphone__img {
+    max-width: 254px;
+}
+
+/* catalog__mac */
+
+.catalog__macBook {
+    max-width: 692px;
+    width: 100%;
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+}
+
+/* catalog watch */
+
+.catalog__watch {
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    max-width: 440px;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* catalog__ipad */
+
+.catalog__ipad {
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    max-width: 560px;
+    width: 100%;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* catalog__dyson */
+
+.catalog__dyson {
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    max-width: 453px;
+    width: 100%;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* catalog__pods */
+
+.catalog__pods {
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    max-width: 560px;
+    width: 100%;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .products */
+
+/* tabs */
+
+.tabs__wrapper {
+    margin-top: 110px;
+    padding-top: 54px;
+}
+
+.tabs {
+    max-width: 432px;
+    width: 100%;
+    max-height: 80px;
+    background-color: #0075FF;
+    border-radius: 100px;
+    display: flex;
+    padding: 14px;
+    gap: 20px;
+}
+
+.tab__news {
+    font-size: 18px;
+    color: #D9D9D9;
+    padding: 14px 20px;
+}
+
+.tab__popular {
+    font-size: 18px;
+    color: #D9D9D9;
+    padding: 14px 20px;
+}
+
+.tab__promotion {
+    font-size: 18px;
+    color: #D9D9D9;
+    padding: 14px 20px;
+}
+
+.active__tab {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    color: #131313;
+}
+
+/* product__card */
+
+.products {
+    background-color: #F9F9F9;
+}
+
+.products__wrapper {
+    padding-top: 50px;
+}
+.product__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.product__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product__img {
+    max-width: 433px;
+}
+
+.product__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.product__title {
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.product__price {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.product__btn {
+    max-width: 121px;
+    width: 100%;
+    height: 65px;
+    border-radius: 100px;
+    color: #FAF9F6;
+    background-color: #0075FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* newProducts */
+
+.new__product__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.discount__product__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.products__hidden {
+    display: none;
+}
+
+
+
+/* options */
+
+.options {
+    background-color: #FAF9F6;
+}
+
+.options__wrapper {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.deliver {
+    max-width: 600px;
+    width: 100%;
+    background-color: #1C1C1C;
+    height: 275px;
+    border-radius: 35px;
+}
+
+.
+@media(max-width:1440px) {
+    .container {
+        margin: 0 auto;
+        max-width: 1360px;
+    }
+
+    .main__advantage {
+        max-width: 440px;
+    }
+    .main__advantage_clients {
+        max-width: 440px;
+    }
+
+    /* brand btns */
+
+    .main__advantages__wrapper {
+        margin-top: 102px;
+    }
+
+    .apple__btn {
+        left: 280px;
+        top: 383px;
+
+    }
+
+    .samsung__btn {
+        right: 358px;
+        top: 269px;
+
+    }
+
+    .sony__btn {
+        left: 423px;
+        top: 344px;
+
+    }
+
+    .xiaomi__btn {
+        right: 346px;
+        top: 487px;
+    }
+
+    .google__btn {
+        right: 520px;
+        top: 154px;
+
+    }
+
+    .xbox__btn {
+        right: 808px;
+        top: 122px;
+    }
+
+    .dyson__btn {
+        left: 438px;
+        top: 491px;
+    }
+
+    .marshall__btn {
+        left: 306px;
+        top: 150px;
+    }
+
+    .catalog__wrapper {
+        margin-top: 110px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* catalog phone */
+    
+    .catalog__iPhones {
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+        max-width: 330px;
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .catalog__iphone__title {
+        top: 0;
+        left: 0;
+        color: #FAF9F6;
+        
+    }
+    
+    .catalog__iphone__img {
+        max-width: 254px;
+    }
+    
+    /* catalog__mac */
+    
+    .catalog__macBook {
+        max-width: 519px;
+        width: 100%;
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+    }
+    
+    /* catalog watch */
+    
+    .catalog__watch {
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+        max-width: 330px;
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* catalog__ipad */
+    
+    .catalog__ipad {
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+        max-width: 420px;
+        width: 100%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /* catalog__dyson */
+    
+    .catalog__dyson {
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+        max-width: 340px;
+        width: 100%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* catalog__pods */
+    
+    .catalog__pods {
+        border: 1px solid #FAF9F6;
+        border-radius: 10px;
+        max-width: 420px;
+        width: 100%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+    }
+}
