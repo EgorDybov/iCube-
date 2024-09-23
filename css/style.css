@@ -497,9 +497,45 @@ body {
     background-color: #1C1C1C;
     height: 275px;
     border-radius: 35px;
+    padding: 20px 30px 25px 45px;
 }
 
-.
+.more {
+    color: #FAF9F6;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: end;
+}
+
+.deliver__title {
+    color: #FAF9F6;
+    font-size: 32px;
+    font-family: "Unbounded", sans-serif;
+    margin-top: 165px;
+}
+
+.payment {
+    max-width: 600px;
+    width: 100%;
+    height: 275px;
+    border-radius: 35px;
+    padding: 20px 30px 25px 45px;
+    background-color: #0075FF; 
+}
+
+.feedback {
+    max-width: 600px;
+    width: 100%;
+    background-color: #1C1C1C;
+    height: 275px;
+    border-radius: 35px;
+    padding: 20px 30px 25px 45px;
+}
+
+
+/* adaptive */
+
 @media(max-width:1440px) {
     .container {
         margin: 0 auto;
