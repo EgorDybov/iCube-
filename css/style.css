@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Unbounded:wght@200..900&display=swap');
 
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Onest", sans-serif;
     background-color: #131313;
 }
+
+:root {
+    --font-color: #FAF9F6;
+    --bg-color: #1C1C1C;
+}
+
 
 .container {
     margin: 0 auto;
@@ -534,6 +544,74 @@ body {
     padding: 20px 30px 25px 45px;
 }
 
+/* FOOTER */ 
+
+.footer {
+    background-color: var(--bg-color);
+}
+
+.footer__wrapper {
+    display: flex;
+    gap: 236px;
+    padding: 120px 0px;
+}
+
+
+.footer__links {
+    color: var(--font-color);
+    display: flex;
+    gap: 350px;
+
+}
+
+.footer__right__links, .footer__left__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.footer__right__link,.footer__left__link span {
+    font-weight: 500;
+}
+
+.input__telegram {
+    max-width: 280px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    background-color: inherit;
+    border-radius: 15px;
+}
+
+.telegram__text {
+    font-size: 14px;
+    background-color: #1C1C1C;
+    padding: 3px 13px;
+    color: var(--font-color);
+    position: absolute;
+    top: -12px;
+    left: 20px;
+
+}
+.input {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    max-width: 355px;
+    width: 100%;
+}
+
+.input__btn {
+    width: 60px !important;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #0075FF;
+    font-size: 8px;
+    color: var(--font-color)
+}
+
+
 
 /* adaptive page*/
 
@@ -744,7 +822,7 @@ body {
     /* footer */
 
     .footer {
-        background-color: #1C1C1C;
+        background-color: var(--bg-color);
     }
 
     .footer__wrapper {
@@ -821,7 +899,7 @@ body {
     .telegram__text {
         position: absolute;
         color: #FFFFFF;
-        background-color: #1C1C1C;
+        background-color: var(--bg-color);
         font-size: 12px;
         left: 15px;
         top: -8px;
