@@ -26,7 +26,6 @@ body {
 .header__wrapper {
     max-width: 1840px;
     width: 100%;
-    background-color: #FAF9F6;
     height: 80px;
     border-radius: 15px;
     margin-top: 20px;
@@ -43,7 +42,7 @@ body {
 }
 
 .header__link {
-    color: #131313;
+    color: #FAF9F6;
     font-size: 14px;
     line-height: 120%;
     font-weight: 500;
@@ -296,20 +295,51 @@ body {
     width: 100%;
     height: 440px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .catalog__iphone__title {
-    top: 0;
-    left: 0;
+    top: 45px;
+    left: 30px;
     color: #FAF9F6;
+    position: absolute;
     
 }
 
 .catalog__iphone__img {
-    max-width: 254px;
+    max-width: 237px;
+    width: 100%;
+    height: 290px;
 }
 
+.catalog__mac__img {
+    max-width: 528px;
+    width: 100%;
+    max-height: 306px;
+    height: 100%;
+}
+
+.catalog__watch__img {
+    max-width: 229px;
+    width: 100%;
+}
+
+.catalog__ipad__img {
+    max-width: 297px;
+    width: 100%;
+}
+
+.catalog__dyson__img {
+    max-width: 223px;
+    width: 100%;
+}
+
+.catalog__airpods__img {
+    max-width: 373px;
+    width: 373px;
+}
 /* catalog__mac */
 
 .catalog__macBook {
@@ -317,6 +347,18 @@ body {
     width: 100%;
     border: 1px solid #FAF9F6;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.catalog__mac__title {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+    color: #FAF9F6;
 }
 
 /* catalog watch */
@@ -329,6 +371,18 @@ body {
     height: 440px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.catalog__watch__title {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+    color: #FAF9F6;
 }
 
 /* catalog__ipad */
@@ -341,6 +395,18 @@ body {
     height: 453px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.catalog__ipad__title {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+    color: #FAF9F6;
 }
 
 
@@ -354,6 +420,18 @@ body {
     height: 453px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.catalog__dyson__title {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+    color: #FAF9F6;
 }
 
 /* catalog__pods */
@@ -366,6 +444,18 @@ body {
     height: 453px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.catalog__airpods__title {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+    color: #FAF9F6;
 }
 
 /* .products */
@@ -431,11 +521,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .product__img {
-    max-width: 433px;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
 }
 
 .product__desc {
@@ -443,25 +534,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
+    gap: 18px;
+    margin-top: 30px;
 }
 
 .product__title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     
 }
 
 .product__price {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .product__btn {
-    max-width: 121px;
+    max-width: 100px;
     width: 100%;
-    height: 65px;
+    height: 52px;
+    font-size: 16px;
     border-radius: 100px;
     color: #FAF9F6;
     background-color: #0075FF;
@@ -695,12 +787,14 @@ body {
         width: 100%;
         height: 330px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
     
     .catalog__iphone__title {
-        top: 0;
-        left: 0;
+        top: 45;
+        left: 30;
         color: #FAF9F6;
         
     }
@@ -716,6 +810,10 @@ body {
         width: 100%;
         border: 1px solid #FAF9F6;
         border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
     
     /* catalog watch */
@@ -728,7 +826,9 @@ body {
         height: 330px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
+    
     
     /* catalog__ipad */
     
@@ -740,6 +840,7 @@ body {
         height: 340px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     
     
@@ -753,6 +854,7 @@ body {
         height: 340px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     
     /* catalog__pods */
@@ -765,6 +867,7 @@ body {
         height: 340px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
     .product__card {
